@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cards
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Business Card</ion-card-title>
+      <ion-card-subtitle>Credit Card</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label><b>Limit</b> $100,000</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><b>Last Bill Due</b> $20,000</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><b>Minimum Due</b> $5,000</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><b>Payment Due Date</b> 05 Feb, 2025</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><b>Expiry</b> 05/2025</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><ion-button routerLink="manageCard/2">Manage Card</ion-button></ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Personal Card</ion-card-title>
+      <ion-card-subtitle>Debit Card</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label><b>Balance</b> $100,000</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><b>Expiry</b> 05/2025</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><ion-button routerLink="manageCard/2">Manage Card</ion-button></ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
